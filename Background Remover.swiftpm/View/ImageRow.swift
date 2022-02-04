@@ -43,6 +43,7 @@ struct ImageRow: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 150)
             }
+            .frame(width: 150)
         case .error:
             Image(systemName: "xmark.octagon.fill")
                 .resizable()
